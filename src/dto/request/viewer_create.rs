@@ -28,11 +28,11 @@ impl ViewerCreateRequest {
         self
     }
 
-    pub fn get_chanel(&self) -> String {
+    pub fn get_channel(&self) -> String {
         self.channel.clone()
     }
 
-    pub fn set_chanel(&mut self, channel: String) -> &mut Self {
+    pub fn set_channel(&mut self, channel: String) -> &mut Self {
         self.channel = channel;
         self
     }

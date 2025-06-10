@@ -27,7 +27,7 @@ impl ViewerUsercase {
             return Err("User ID is empty".into());
         }
 
-        if viewer_create.get_chanel().is_empty() {
+        if viewer_create.get_channel().is_empty() {
             return Err("Channel is empty".into());
         }
 
