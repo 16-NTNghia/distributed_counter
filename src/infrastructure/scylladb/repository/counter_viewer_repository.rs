@@ -31,8 +31,6 @@ impl CounterViewerRepository {
     }
 
     pub async fn update_viewer(&self, term: i64, channel: String) -> Result<(), Box<dyn Error>> {
-        println!("term: {}", term);
-
         let counter = Counter(term);
 
         let statement =
